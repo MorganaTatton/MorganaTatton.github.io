@@ -1,0 +1,53 @@
+*title Five Dimensional Political Styles Quiz
+*author Morgana Tatton
+*scene_list
+  startup
+  freedom-questions
+  systematic-questions
+  visionary-questions
+  hierarchy-questions
+  fearful-questions
+  results
+  meaning-freedom
+  meaning-systematic
+  meaning-visionary
+  meaning-hierarchy
+  meaning-fearful
+  meaning-examples
+  ending
+
+*create Freedom 50
+*create Conformity 50
+*create Systematic 50
+*create Egoistic 50
+*create Visionary 50
+*create Particular 50
+*create Hierarchy 50
+*create Equality 50
+*create Fearful 50
+*create Stoic 50
+
+    
+
+Welcome to the Morgana Tatton political styles quiz! This is a bit of fun, but hopefully
+can also be used to describe real political distinctions. The left/right compass has its 
+known deficiencies, and even adding and authoritarian/libertarian axis leaves a lot unstated.
+
+For that reason, I created this Five Dimensional Political Styles Quiz. The axes are:
+
+Freedom/conformity
+
+Systematic/egoistic
+
+Broad/particular
+
+Hierarchy/equality
+
+Fearful/stoic
+
+Explanations (link here)
+
+Otherwise, continue on!
+
+*finish
+

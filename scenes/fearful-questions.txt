@@ -1,0 +1,97 @@
+These are end times.
+
+*choice
+  #Strongly agree
+    *set Fearful +10
+    *goto 2
+  #Somewhat agree
+    *set Fearful +5
+    *goto 2
+  #Neutral
+    *goto 2
+  #Somewhat disagree
+    *set Fearful -5
+    *goto 2
+  #Strongly disagree
+    *set Fearful -10
+    *goto 2
+
+*label 2
+
+All things considered, today is the best time in history to be alive.
+
+*choice
+  #Strongly agree
+    *set Fearful -10
+    *goto 3
+  #Somewhat agree
+    *set Fearful -5
+    *goto 3
+  #Neutral
+    *goto 3
+  #Somewhat disagree
+    *set Fearful +5
+    *goto 3
+  #Strongly disagree
+    *set Fearful +10
+    *goto 3
+
+*label 3
+    
+It's right to be especially anxious today. There is more to be anxious about now than in the past.
+
+*choice
+  #Strongly agree
+    *set Fearful +10
+    *goto 4
+  #Somewhat agree
+    *set Fearful +5
+    *goto 4
+  #Neutral
+    *goto 4
+  #Somewhat disagree
+    *set Fearful -5
+    *goto 4
+  #Strongly disagree
+    *set Fearful -10
+    *goto 4
+
+*label 4
+    
+Regardless of what is happening out in the wider world, I am basically happy with my own life circumstances.
+
+*choice
+  #Strongly agree
+    *set Fearful -10
+    *goto 5
+  #Somewhat agree
+    *set Fearful -5
+    *goto 5
+  #Neutral
+    *goto 5
+  #Somewhat disagree
+    *set Fearful +5
+    *goto 5
+  #Strongly disagree
+    *set Fearful +10
+    *goto 5
+
+*label 5
+    
+We need to radically change our society in order to deal with major threats.
+
+*choice
+  #Strongly agree
+    *set Fearful +10
+    *finish
+  #Somewhat agree
+    *set Fearful +5
+    *finish
+  #Neutral
+    *finish
+  #Somewhat disagree
+    *set Fearful -5
+    *finish
+  #Strongly disagree
+    *set Fearful -10
+    *finish
